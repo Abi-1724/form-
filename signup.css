@@ -1,0 +1,86 @@
+body {  
+    background: url('pexels-niezam-16516.jpg') no-repeat center center fixed;
+    font-family: Arial, sans-serif;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    height: 100vh;  
+    margin: 0;  
+    background-size: cover;
+    
+}  
+
+.container {  
+    background-color: white;  
+    border-radius: 10px;  
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);  
+    padding: 40px;  
+    width: 300px;  
+    text-align: center;  
+}  
+
+h1 {  
+    margin-bottom: 10px;  
+    font-size: 24px;  
+}  
+
+p {  
+    margin-bottom: 20px;  
+    color: #666;  
+}  
+
+.input-field {  
+    position: relative;  
+    margin-bottom: 20px;  
+}  
+
+.input-field i {  
+    position: absolute;  
+    left: 10px;  
+    top: 50%;  
+    transform: translateY(-50%);  
+    color: #aaa;  
+}  
+
+.input-field input {  
+    width: 100;  
+    padding: 10px 10px 10px 40px; /* Add padding for icon */  
+    border: 1px solid #ddd;  
+    border-radius: 5px;  
+    font-size: 16px;  
+}  
+
+.input-field input:focus {  
+    border-color: #a29bfe; /* Change border color on focus */  
+    outline: none;  
+}  
+
+.btn {  
+    background-color: #666; /* Purple button */  
+    color: white;  
+    padding: 10px;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    width: 100%;  
+    font-size: 16px;  
+}  
+
+.btn:hover {  
+    background-color: #666; /* Darker purple on hover */  
+}  
+
+.forgot-password {  
+    display: block;  
+    margin: 10px 0;  
+    color: #666;  
+}  
+
+.switch-form {  
+    color: #666e;  
+    text-decoration: none;  
+}  
+
+.switch-form:hover {  
+    text-decoration: underline;  
+}
